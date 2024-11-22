@@ -1,4 +1,4 @@
-"""Script for training the transoar project."""
+"""Script for training the project."""
 
 import argparse
 import os
@@ -11,14 +11,14 @@ import torch.nn as nn
 import monai
 import sys
 
-parent_dir = os.path.abspath('/home/kb535/lss/codes/objection/transoar')
+parent_dir = os.path.abspath('...')
 sys.path.append(parent_dir)
 
-from transoar.trainer import Trainer
-from transoar.data.dataloader import get_loader
-from transoar.utils.io import get_config, write_json, get_meta_data
-from transoar.models.retinanet.retina_unet import RetinaUNet
-from transoar.models.retinanet.mamba_detection import mambanet
+from trainer import Trainer
+from data.dataloader import get_loader
+from utils.io import get_config, write_json, get_meta_data
+from models.retinanet.retina_unet import RetinaUNet
+from models.mamba_detection import mambanet
 
 
 def match(n, keywords):
@@ -89,7 +89,7 @@ def train(config, args):
         metric_start_val = 0
 
     # Init logging
-    path_to_run = Path('/home/kb535/lss/codes/objection/transoar/runs')/ config['experiment_name']
+    path_to_run = Path('')/ config['experiment_name']
     path_to_run.mkdir(exist_ok=True)
 
     # Get meta data and write config to run
