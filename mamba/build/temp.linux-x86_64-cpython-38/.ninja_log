@@ -1,0 +1,16 @@
+# ninja log v5
+0	11554	1727162543288591206	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan.o	4caaa67bb051aaca
+0	43263	1727162574984944319	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_fwd_fp16.o	a3cc9b1d3f8253f1
+1	43675	1727162575396949040	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_fwd_fp32.o	168413fc2e63712c
+0	46210	1727162577932978162	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_fwd_bf16.o	7e5a4a0a263bae5e
+1	10832	1727164608483028324	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan.o	4caaa67bb051aaca
+0	22824	1727235549452165226	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan.o	4caaa67bb051aaca
+1	54497	1727235581120827271	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_fwd_fp16.o	a3cc9b1d3f8253f1
+1	55164	1727235581792841336	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_fwd_bf16.o	7e5a4a0a263bae5e
+1	55787	1727235582412854313	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_fwd_fp32.o	168413fc2e63712c
+1	91952	1727235618573612091	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_bwd_fp16_real.o	97ea46436cdad5fd
+1	94855	1727235621477673026	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_bwd_fp32_real.o	c92a1ee25295f017
+0	104622	1727235631241877982	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_bwd_bf16_real.o	eeb46141ac6d505f
+1	129414	1727235656030398863	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_bwd_fp32_complex.o	d1e05333dd701eb0
+1	129893	1727235656510408957	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_bwd_fp16_complex.o	3830f1100d785d7
+0	139532	1727235666142611571	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-cpython-38/csrc/selective_scan/selective_scan_bwd_bf16_complex.o	3922710629c39086

@@ -1,0 +1,5 @@
+# ninja log v5
+1	1831	1727317776449297927	/home/kb535/lss/codes/objection/transoar/causal-conv1d/build/temp.linux-x86_64-3.8/csrc/causal_conv1d_update.o	91f97ca3e412abc6
+1	6553	1727317781169401933	/home/kb535/lss/codes/objection/transoar/causal-conv1d/build/temp.linux-x86_64-3.8/csrc/causal_conv1d_fwd.o	e1dbb017d439e6f7
+0	12512	1727317787121533098	/home/kb535/lss/codes/objection/transoar/causal-conv1d/build/temp.linux-x86_64-3.8/csrc/causal_conv1d.o	42e0e87de1ac690c
+1	20957	1727317795565719198	/home/kb535/lss/codes/objection/transoar/causal-conv1d/build/temp.linux-x86_64-3.8/csrc/causal_conv1d_bwd.o	46cedc168fe25b85

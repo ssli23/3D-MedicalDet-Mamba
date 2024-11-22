@@ -1,0 +1,11 @@
+# ninja log v5
+0	19816	1727317846714846930	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-3.8/csrc/selective_scan/selective_scan.o	e4d17a4bb52d4350
+0	50253	1727317877151518354	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-3.8/csrc/selective_scan/selective_scan_fwd_fp16.o	3f81f27f7e05bdc2
+0	55038	1727317881931623825	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-3.8/csrc/selective_scan/selective_scan_fwd_bf16.o	47a53625eeacf672
+0	57648	1727317884547681550	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-3.8/csrc/selective_scan/selective_scan_fwd_fp32.o	6841fbe806d2b04b
+1	96922	1727317923812548161	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-3.8/csrc/selective_scan/selective_scan_bwd_fp16_real.o	6bc85f721f5bd066
+0	97881	1727317924776569442	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-3.8/csrc/selective_scan/selective_scan_bwd_fp32_real.o	674fb04b6d7530f1
+1	105248	1727317932148732197	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-3.8/csrc/selective_scan/selective_scan_bwd_bf16_real.o	62232cfa3335cee8
+0	130772	1727317957657295449	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-3.8/csrc/selective_scan/selective_scan_bwd_fp32_complex.o	374c81a039cedcb8
+1	132876	1727317959765342002	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-3.8/csrc/selective_scan/selective_scan_bwd_fp16_complex.o	291763fd8e1e4fd1
+1	146419	1727317973301640962	/home/kb535/lss/codes/objection/transoar/mamba/build/temp.linux-x86_64-3.8/csrc/selective_scan/selective_scan_bwd_bf16_complex.o	fdc1cd13f1e3d99b
