@@ -10,16 +10,16 @@ from tqdm import tqdm
 import os
 import sys
 
-parent_dir = os.path.abspath('/home/kb535/lss/codes/objection/transoar')
+parent_dir = os.path.abspath('')
 sys.path.append(parent_dir)
 
-from transoar.utils.io import load_json, write_json
-from transoar.utils.bboxes import box_xyxyzz_to_cxcyczwhd
-from transoar.utils.visualization import save_pred_visualization
-from transoar.data.dataloader import get_loader
-from transoar.evaluator import DetectionEvaluator
-from transoar.models.retinanet.retina_unet import RetinaUNet
-from transoar.models.retinanet.mamba_detection import mambanet
+from utils.io import load_json, write_json
+from utils.bboxes import box_xyxyzz_to_cxcyczwhd
+from utils.visualization import save_pred_visualization
+from data.dataloader import get_loader
+from evaluator import DetectionEvaluator
+from models.retinanet.retina_unet import RetinaUNet
+from models.retinanet.mamba_detection import mambanet
 
 from transoar.utils.io import get_config
 import monai
@@ -29,7 +29,7 @@ from torch.cuda.amp import GradScaler, autocast
 class Tester:
 
     def __init__(self, args):
-        path_to_run = Path('/home/kb535/lss/codes/objection/transoar/runs/' + args.run)
+        path_to_run = Path('' + args.run)
         config = load_json(path_to_run / 'config.json')
 
         self._save_preds = args.save_preds
