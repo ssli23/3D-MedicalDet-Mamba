@@ -1,5 +1,5 @@
 ## 3D MedicalDet-Mamba: A hybrid Mamba-CNN Network for Medical Object Detection and Localization.   
-More code details will be released later or an issue will be raised.
+More details will be released later or an issue will be raised.
 
 
 
